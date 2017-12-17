@@ -1,0 +1,32 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(470 742)">
+<g id="Group">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(-470 -742)" fill="#F9F7F8"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path1_fill" transform="translate(-470 -742)" fill="#EDEBEC"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-430 -708)" fill="#EB261F"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-366 -708)" fill="#F7B92B"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-302 -708)" fill="#65D743"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path3_fill" transform="translate(-470 -642)" fill="#F3F1F2"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 1172 0C 1187.46 0 1200 12.536 1200 28L 1200 832C 1200 847.464 1187.46 860 1172 860L 28 860C 12.536 860 0 847.464 0 832L 0 28Z"/>
+<path id="path1_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 1172 0C 1187.46 0 1200 12.536 1200 28L 1200 100L 0 100L 0 28Z"/>
+<path id="path2_fill" d="M 32 16C 32 24.8366 24.8366 32 16 32C 7.16344 32 0 24.8366 0 16C 0 7.16344 7.16344 0 16 0C 24.8366 0 32 7.16344 32 16Z"/>
+<path id="path3_fill" d="M 0 0L 231 0L 231 760L 28 760C 12.536 760 0 747.464 0 732L 0 0Z"/>
+</defs>
+</svg>
