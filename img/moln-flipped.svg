@@ -1,0 +1,26 @@
+<svg width="310" height="111" viewBox="0 0 310 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>moln</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1198 423)">
+<g id="moln">
+<g id="Canvas">
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 -918 -362)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="matrix(-1 0 0 1 -943 -387)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="matrix(-1 0 0 1 -888 -423)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 25C 0 11.1929 11.1929 0 25 0L 255 0C 268.807 0 280 11.1929 280 25C 280 38.8071 268.807 50 255 50L 25 50C 11.1929 50 0 38.8071 0 25Z"/>
+<path id="path1_fill" d="M 0 25C 0 11.1929 11.1929 0 25 0L 110 0C 123.807 0 135 11.1929 135 25C 135 38.8071 123.807 50 110 50L 25 50C 11.1929 50 0 38.8071 0 25Z"/>
+<path id="path2_fill" d="M 0 55.5C 0 24.8482 24.8482 0 55.5 0L 69.5 0C 100.152 0 125 24.8482 125 55.5C 125 86.1518 100.152 111 69.5 111L 55.5 111C 24.8482 111 0 86.1518 0 55.5Z"/>
+</defs>
+</svg>

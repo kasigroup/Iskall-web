@@ -15,29 +15,28 @@ body {
   position: fixed;
   height: 70px;
   width: 100%;
-  padding:25px 25px 0px 140px;
+  padding:25px 25px 0px 25px;
+  animation-duration: 1s;
+  animation-name: fadeIn;
 }
 
 .wrapper {
   display: flex;
   height: 100%;
-  background: #B5ECF5;
+  background: white;
   flex-direction: column;
 }
 
 .intro-left {
-  background: white;
   width: 100%;
   flex: 4;
   display: flex;
   align-items: center;
-
+  z-index: 10;
 }
 
 .content {
-  padding: 140px;
-  padding-right: 240px;
-  margin-bottom: 40px;
+  padding: 25px;
 }
 
 .intro-text {
@@ -69,6 +68,7 @@ img {
 h3 {
   margin-bottom: 40px;
   font-size: 22px;
+  font-weight: 300;
 }
 
 .intro-overlay {
@@ -87,12 +87,95 @@ h3 {
   display: none;
 }
 
+.mockup-website {
+  position: relative;
+}
+
+.mockup-website img {
+  border-radius: 17px;
+  box-shadow: 6px 4px 28px -8px rgba(0,0,0,0.35);
+}
 
 .intro-right {
   display: flex;
+  flex-direction: column;
   background: #B2EFF8;
   width: 100%;
   flex: 2;
+}
+
+.clouds {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0px 30px 0px 10px;
+}
+
+.cloud {
+  max-width: 150px;
+  display: inline-block;
+}
+
+.cloud:nth-child(1) {
+  margin: 0 auto;
+  display: block;
+  max-width: 120px;
+  animation-duration: 60s;
+  animation-name: moveCloud;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.cloud:nth-child(2) {
+  animation-duration: 50s;
+  animation-name: moveCloud;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.cloud:nth-child(3) {
+  float: right;
+  clear: both;
+  max-width: 130px;
+  animation-duration: 55s;
+  animation-name: moveCloud2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.grounds {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ground:nth-child(1) {
+  background: #8FC9C1;
+  position: absolute;
+  bottom: 0;
+  left: -70px;
+  border-radius: 100px;
+  width:95%;
+  height: 150px;
+}
+
+.ground:nth-child(2) {
+  background: #A3E4DB;
+  position: absolute;
+  bottom: -10px;
+  border-radius: 10px;
+  width:100%;
+  height: 50px;
+}
+
+.ground:nth-child(3) {
+  background: #A3E4DB;
+  position: absolute;
+  bottom: -60px;
+  border-radius: 100px;
+  width:60%;
+  height: 150px;
+  right: -50px;
 }
 
 #sky {
@@ -101,18 +184,106 @@ h3 {
 }
 
 @media (min-width: 1100px) {
+
   .wrapper {
     flex-direction: row;
   }
+
+  .navbar {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    padding:25px 25px 0px 100px;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+  }
+
+  .content {
+    padding: 100px;
+    margin-bottom: 40px;
+  }
+
+  .mockup-website-content {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+
+  .mock-text-top {
+    margin-bottom: 30px;
+  }
+
+  .mock-text-top .mock-text {
+    width: 100%;
+    height: 30px;
+  } 
 
   .overlay-image {
     display: block;
     max-width: 450px;
     margin-left: 40%;
   }
+
+  .mock-text {
+    background: #f3f1f2;
+    width: 150px;
+    height: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  .mock-text-left .mock-text:nth-child(1) {
+    width: 200px;
+  }
+
+  .mock-text-right {
+    margin-left: 120px;
+    margin-top: 35px;
+  }
+
+  .mock-text-right .mock-text:nth-child(-n+2) {
+    width: 200px;
+  }
+
 }
 
 @media (min-width: 1500px) {
+
+  .mockup-website-content {
+    top: 90px;
+    left: 180px;
+  }
+
+  .mock-text {
+    background: #f3f1f2;
+    width: 200px;
+    height: 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+  }
+
+  .mock-text-left .mock-text:nth-child(1) {
+    width: 300px;
+  }
+
+  .mock-text-top {
+    margin-bottom: 50px;
+  }
+
+  .mock-text-top .mock-text {
+    width: 100%;
+    height: 40px;
+  }  
+
+  .mock-text-right {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+
+  .mock-text-right .mock-text:nth-child(-n+2) {
+    width: 300px;
+  }
+
   .overlay-image {
     max-width: 700px;
   }
@@ -128,5 +299,33 @@ h3 {
 
   to {
     opacity: 1;
+  }
+}
+
+@keyframes moveCloud {
+  0% {
+    transform:translate(0px);
+  }
+
+  50% {
+    transform:translate(50px);
+  }
+
+  100% {
+    transform:translate(0px);
+  }
+}
+
+@keyframes moveCloud2 {
+  0% {
+    transform:translate(0px);
+  }
+
+  50% {
+    transform:translate(-50px);
+  }
+
+  100% {
+    transform:translate(0px);
   }
 }
