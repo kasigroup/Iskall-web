@@ -11,10 +11,18 @@ body {
   height: 100%;
 }
 
+.navbar {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  padding:25px 25px 0px 140px;
+}
+
 .wrapper {
   display: flex;
   height: 100%;
   background: #B5ECF5;
+  flex-direction: column;
 }
 
 .intro-left {
@@ -27,10 +35,13 @@ body {
 }
 
 .content {
-
   padding: 140px;
   padding-right: 240px;
   margin-bottom: 40px;
+}
+
+.intro-text {
+  max-width: 500px;
 }
 
 .logo {
@@ -43,8 +54,8 @@ img {
 }
 
 
-.contact {
-    background: #67D2F5;
+.contact-btn {
+    background: #B2EFF8;
     text-align: center;
     width: 200px;
     height: 40px;
@@ -52,60 +63,34 @@ img {
     font-size: 18px;
     color: white;
     border-radius: 30px;
-    border: 2px solid #67D2F5;
+    border: 2px solid #B2EFF8;
 }
 
 h3 {
-  margin-top: 40px;
   margin-bottom: 40px;
+  font-size: 22px;
 }
 
-.intro-web {
+.intro-overlay {
   position: absolute;
-  width: 520px;
-  border-radius: 10px;
-  left: 760px;
-  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   z-index: 1;
-  box-shadow: 6px 4px 28px -8px rgba(0,0,0,0.35);
+  animation-duration: 1s;
+  animation-name: fadeIn;
 }
 
-.block1 {
-  position: absolute;
-  width: 120px;
-  height: 20px;
-  border-radius: 10px;
-  left: 120px;
-  top:160px;
-  background: green;
-  z-index: 1
+.overlay-image {
+  display: none;
 }
 
-.block2 {
-  position: absolute;
-  width: 120px;
-  height: 20px;
-  border-radius: 10px;
-  left: 120px;
-  top: 200px;
-  background: green;
-  z-index: 1
-}
-
-.block3 {
-  position: absolute;
-  width: 120px;
-  height: 20px;
-  border-radius: 10px;
-  left: 120px;
-  top: 240px;
-  background: green;
-  z-index: 1
-}
 
 .intro-right {
   display: flex;
-  background: #67D2F5;
+  background: #B2EFF8;
   width: 100%;
   flex: 2;
 }
@@ -113,4 +98,35 @@ h3 {
 #sky {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1100px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .overlay-image {
+    display: block;
+    max-width: 450px;
+    margin-left: 40%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .overlay-image {
+    max-width: 700px;
+  }
+}
+
+
+/* Animations */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
