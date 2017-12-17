@@ -1,3 +1,36 @@
+// on load animations
+
+anime({
+  targets: '#mock-website',
+  translateY: [-800, 0],
+  duration: 1200,
+  elasticity: 700
+});
+
+// On click animations
+
+function moveIt(){
+  anime({
+    targets: '#mock-website',
+    translateX: 800,
+    easing: 'easeInOutBack'
+  });
+
+  anime({
+    targets: '.intro-right',
+    translateX: 800,
+    easing: 'easeInOutBack'
+  }); 
+
+  anime({
+    targets: '.intro-left',
+    translateX: -800,
+    easing: 'easeInOutBack'
+  }); 
+};
+
+// Snow
+
 // window.onload = function () {
 //   var canvas = document.getElementById("sky");
 //   var ctx = canvas.getContext("2d");

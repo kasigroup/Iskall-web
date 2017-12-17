@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ISKALL AB</title>
+    <title>Iskall - Web made for you</title>
 
 
     <!-- Roboto Font -->
@@ -18,12 +18,15 @@
   <body>
     <div class="navbar">
       <p>Navbar</p>
+      <button onclick="moveIt()">moveout</button>
     </div>
     <div class="wrapper">
       <div class="intro-left">
         <div class="content">
           <div class="logo">
-            <img src="./img/Iskall.png" alt="logga">
+            <div id="svg-logo">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 529 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><rect x="0" y="2.619" width="26.888" height="116.453" style="fill:#000900;"/><path d="M112.961,31.078c-8.73,-7.857 -16.238,-8.381 -19.556,-8.381c-3.665,0 -8.205,0.524 -11.346,4.016c-1.746,1.746 -2.97,4.365 -2.97,7.333c0,2.793 0.873,4.888 2.619,6.46c2.794,2.619 6.809,3.666 14.666,6.634l8.73,3.318c5.063,1.92 11.347,4.539 15.887,8.904c6.81,6.46 8.555,14.84 8.555,21.65c0,12.047 -4.189,22.521 -10.301,28.808c-10.301,10.823 -25.315,11.871 -32.997,11.871c-8.381,0 -15.714,-1.222 -23.047,-4.889c-5.936,-2.968 -12.745,-8.38 -17.11,-12.745l13.969,-19.204c2.967,2.968 7.681,6.982 10.824,8.904c4.539,2.792 9.253,4.189 14.665,4.189c3.492,0 8.381,-0.698 12.222,-4.016c2.27,-1.919 4.19,-5.062 4.19,-9.428c0,-3.841 -1.571,-6.284 -4.015,-8.38c-3.143,-2.618 -10.302,-5.237 -13.619,-6.46l-9.601,-3.316c-5.414,-1.921 -11.699,-4.365 -16.239,-9.254c-6.11,-6.46 -6.982,-14.666 -6.982,-20.253c0,-10.301 3.141,-19.03 10.125,-26.189c8.206,-8.38 17.982,-10.65 28.808,-10.65c8.031,0 20.951,1.397 34.57,11.523l-12.047,19.555Z" style="fill:#000900;fill-rule:nonzero;"/><path d="M175.81,51.156l39.807,-48.536l32.823,0l-47.141,55.171l50.807,61.282l-34.568,0l-41.728,-51.68l0,51.68l-26.888,0l0,-116.453l26.888,0l0,48.536Z" style="fill:#000900;fill-rule:nonzero;"/><path d="M330.668,76.472l-14.316,-39.108l-14.492,39.108l28.808,0Zm7.333,20.602l-43.997,0l-8.904,21.999l-27.935,0l46.966,-116.453l24.618,0l45.917,116.453l-27.935,0l-8.73,-21.999Z" style="fill:#000900;fill-rule:nonzero;"/><path d="M414.644,2.62l0,93.756l36.141,0l0,22.697l-63.03,0l0,-116.453l26.889,0Z" style="fill:#000900;fill-rule:nonzero;"/><path d="M492.857,2.62l0,93.756l36.141,0l0,22.697l-63.03,0l0,-116.453l26.889,0Z" style="fill:#000900;fill-rule:nonzero;"/></svg>
+            </div>
           </div>
           <div class="intro-text">
             <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</h3>
@@ -33,23 +36,23 @@
       </div>
       <div class="intro-overlay">
         <div class="overlay-image">
-          <div class="mockup-website">
-          <img id="frontweb" src="./img/WEBBILD.svg" alt="browser">
-          <div class="mockup-website-content">
-            <div class="mock-text-top">
-              <div class="mock-text"></div>
-            </div>
-            <div class="mock-text-left">
+          <div class="mockup-website" id="mock-website">
+            <img id="frontweb" src="./img/WEBBILD.svg" alt="browser">
+            <div class="mockup-website-content">
+              <div class="mock-text-top">
                 <div class="mock-text"></div>
-                <div class="mock-text"></div>
-                <div class="mock-text"></div>
-            </div>
-            <div class="mock-text-right">
-                <div class="mock-text"></div>
-                <div class="mock-text"></div>
-                <div class="mock-text"></div>
-            </div>
-          </div>       
+              </div>
+              <div class="mock-text-left">
+                  <div class="mock-text"></div>
+                  <div class="mock-text"></div>
+                  <div class="mock-text"></div>
+              </div>
+              <div class="mock-text-right">
+                  <div class="mock-text"></div>
+                  <div class="mock-text"></div>
+                  <div class="mock-text"></div>
+              </div>
+            </div>       
           </div>      
         </div>      
       </div>
@@ -66,13 +69,11 @@
           <div class="ground"></div>
         </div>
      </div>
-
    </div>
-
-
 
     <!-- JAVASCRIPT -->
 
+    <script src="https://rawgit.com/juliangarnier/anime/master/anime.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
