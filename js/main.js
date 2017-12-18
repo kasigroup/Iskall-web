@@ -1,3 +1,127 @@
+// vars
+
+// onLoad
+// Set has to nothing
+location.hash = ""
+
+// on load animations
+
+
+anime({
+  targets: '#mock-website',
+  translateY: [-800, 0],
+  duration: 800,
+  elasticity: 500
+});
+
+// On click animations
+function funcRef() {
+  // Get location
+  var url = decodeURI(window.location.hash);
+  var temp = url.split('/')[0];
+  console.log(temp);
+}
+
+window.onhashchange = funcRef;
+
+function moveIt(){
+
+  function changePage(){
+    var wrapperOut = document.getElementById("wrap-start");
+    var wrapperIn = document.getElementById("wrap-about");
+  
+    
+    wrapperIn.classList.add("current");
+    wrapperOut.classList.add("notCurrent");
+
+    anime({
+      targets: '#wrap-about',
+      opacity: [0,1],
+      easing: 'easeInOutBack'
+    });
+
+    anime({
+      targets: '.navbar a',
+      color: "#fff",
+      easing: 'easeInOutBack'
+    });
+
+  }
+
+  anime({
+    targets: '#mock-website',
+    translateX: 800,
+    easing: 'easeInOutBack'
+  });
+
+  anime({
+    targets: '.intro-right',
+    translateX: 800,
+    easing: 'easeInOutQuad'
+  }); 
+
+  var lastPromise = anime({
+    targets: '.intro-left',
+    translateX: -800,
+    easing: 'easeInOutBack'
+  }); 
+
+  var promise = lastPromise.finished.then(changePage);
+};
+
+function writeOnMockup(){
+  var elements = document.getElementsByClassName('mock-text');
+  var elementsArray = Array.from(elements);
+  var elStyles = elementsArray.map(item => {
+    var style = window.getComputedStyle(item);
+    return style.getPropertyValue('width');
+  });
+  var timeline = anime.timeline();
+  timeline
+    .add({
+      targets: elements[1],
+      opacity: [0, 1],
+      width: ["0px", elStyles[1]],
+      delay: 1000,
+      easing: 'easeOutExpo'
+    })
+    .add({
+      targets: elements[2],
+      opacity: [0, 1],
+      width: ["0px", elStyles[2]],
+      easing: 'easeOutExpo'
+    })
+    .add({
+      targets: elements[3],
+      opacity: [0, 1],
+      width: ["0px", elStyles[3]],
+      easing: 'easeOutExpo'
+    })
+    .add({
+      targets: elements[4],
+      opacity: [0, 1],
+      width: ["0px", elStyles[4]],
+      easing: 'easeOutExpo'
+    })
+    .add({
+      targets: elements[5],
+      opacity: [0, 1],
+      width: ["0px", elStyles[5]],
+      easing: 'easeOutExpo'
+    })
+    .add({
+      targets: elements[6],
+      opacity: [0, 1],
+      width: ["0px", elStyles[6]],
+      easing: 'easeOutExpo'
+    });
+}
+
+writeOnMockup();
+
+
+// Snow
+
 // window.onload = function () {
 //   var canvas = document.getElementById("sky");
 //   var ctx = canvas.getContext("2d");
