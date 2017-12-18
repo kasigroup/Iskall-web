@@ -17,10 +17,13 @@
   </head>
   <body>
     <div class="navbar">
-      <p>Navbar</p>
-      <button onclick="moveIt()">moveout</button>
+      <ul>
+        <a href="#"><li>Navbar</li></a>
+        <a href="#about" onclick="moveIt()"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
     </div>
-    <div class="wrapper">
+    <div class="wrapper-start" id="wrap-start">
       <div class="intro-left">
         <div class="content">
           <div class="logo">
@@ -69,6 +72,13 @@
           <div class="ground"></div>
         </div>
      </div>
+   </div>
+
+   <div class="wrapper-about" id="wrap-about">
+    <div class="about-text">
+      <h3>We make the apps</h3>
+      <p>When we make the apps there is nothing you can fo about it. They will just come from thin air down in your morning coffee.</p>
+    </div>
    </div>
 
     <!-- JAVASCRIPT -->
