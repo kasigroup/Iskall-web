@@ -1,0 +1,27 @@
+{
+  "name": "iskall-web-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.3",
+    "animejs": "^2.2.0",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-transition-group": "^15.6.2",
+    "react-anime": "^2.0.1",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-transition-group": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "prettier-eslint": "^8.7.0"
+  }
+}
