@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import iceCream from "./img/iceCream.svg";
 import Home from "./Home";
 import About from "./About";
+import Process from "./Process";
+import Contact from "./Contact";
 
 class App extends Component {
   render() {
@@ -33,7 +35,9 @@ class App extends Component {
                 <ReactTransitionGroup>
                   <Switch key={location.key} location={location}>
                     <Route exact path="/" component={Home} />
-                    <Route path="/About" component={About} />
+                    <Route path="/about" component={About} />
+                    <Route path="/process" component={Process} />
+                    <Route path="/contact" component={Contact} />
                   </Switch>
                 </ReactTransitionGroup>
               </div>

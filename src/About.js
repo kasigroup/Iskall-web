@@ -11,7 +11,7 @@ class About extends Component {
   }
 
   startAnimations() {
-    const mockup = document.getElementById("about-flex-wrapper");
+    const mockup = document.getElementById("mockup-phone");
     mockup.style.display = "flex";
     animContentIn();
     setTimeout(function() {
@@ -24,8 +24,8 @@ class About extends Component {
   render() {
     return (
       <div className="wrapper-about" id="wrap-about">
-        <div className="about-flex-wrapper" id="about-flex-wrapper">
-          <div className="mockup-phone">
+        <div className="about-left">
+          <div className="mockup-phone" id="mockup-phone">
             <img
               src={phone}
               alt="mockup-phone"
@@ -37,24 +37,19 @@ class About extends Component {
               <img src={phoneBlockOrange} alt="mockup-phone-block" />
             </div>
           </div>
+        </div>
+        <div className="about-right">
           <div className="about-text">
             <h1>What we do?</h1>
             <h3>We make the apps</h3>
             <p>
-              When we make the apps there is nothing you can fo about it. They
-              will just come from thin air down in your morning coffee.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. More interactable.
             </p>
             <br />
             <h3>Why the apps?</h3>
             <p>
-              When we make the apps there is nothing you can fo about it. They
-              will just come from thin air down in your morning coffee.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
-          </div>
-          <div className="about-boxes" id="about-boxes">
-            <div className="about-box" />
-            <div className="about-box" />
-            <div className="about-box" />
           </div>
         </div>
       </div>
