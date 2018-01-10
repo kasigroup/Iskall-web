@@ -1,0 +1,37 @@
+<svg width="105" height="243" viewBox="0 0 105 243" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-64 372)">
+<g id="Group">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(104 -262)" fill="#F5A242"/>
+</g>
+<g id="Rectangle 2.1">
+<use xlink:href="#path1_fill" transform="translate(69 -369)" fill="#E8D4E3"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path2_fill" transform="translate(64 -372)" fill="#EA4E86"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(94 -350)" fill="#D24678"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path3_fill" transform="translate(123 -350)" fill="#D24678"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(163 -277)" fill="#FFFFFF" fill-opacity="0.25"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path5_fill" transform="translate(163 -253)" fill="#FFFFFF" fill-opacity="0.25"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 27 0L 27 119.5C 27 126.956 20.9558 133 13.5 133L 13.5 133C 6.04416 133 0 126.956 0 119.5L 0 0Z"/>
+<path id="path1_fill" d="M 0 48C 0 21.4903 21.4903 0 48 0L 48 0C 74.5097 0 96 21.4903 96 48L 96 164C 96 170.627 90.6274 176 84 176L 12 176C 5.37258 176 0 170.627 0 164L 0 48Z"/>
+<path id="path2_fill" d="M 0 52.5C 0 23.5051 23.5051 0 52.5 0L 52.5 0C 81.4949 0 105 23.5051 105 52.5L 105 158C 105 167.941 96.9411 176 87 176L 18 176C 8.05887 176 0 167.941 0 158L 0 52.5Z"/>
+<path id="path3_fill" d="M 0 8C 0 3.58172 3.58172 0 8 0L 8 0C 12.4183 0 16 3.58172 16 8L 16 125C 16 129.418 12.4183 133 8 133L 8 133C 3.58172 133 0 129.418 0 125L 0 8Z"/>
+<path id="path4_fill" d="M 0 1C 0 0.447715 0.447715 0 1 0L 1 0C 1.55228 0 2 0.447715 2 1L 2 19C 2 19.5523 1.55228 20 1 20L 1 20C 0.447715 20 0 19.5523 0 19L 0 1Z"/>
+<path id="path5_fill" d="M 0 1C 0 0.447715 0.447715 0 1 0L 1 0C 1.55228 0 2 0.447715 2 1L 2 6C 2 6.55228 1.55228 7 1 7L 1 7C 0.447715 7 0 6.55228 0 6L 0 1Z"/>
+</defs>
+</svg>

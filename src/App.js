@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactTransitionGroup from "react-addons-transition-group";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import iceCream from "./img/iceCream.svg";
 import Home from "./Home";
 import About from "./About";
 
@@ -12,10 +13,16 @@ class App extends Component {
           <div className="navbar">
             <ul>
               <Link to="/">
-                <li>Home</li>
+                <li><img src={iceCream} alt="logo" /></li>
               </Link>
               <Link to="/about">
                 <li>About</li>
+              </Link>
+              <Link to="/process">
+                <li>Process</li>
+              </Link>
+              <Link to="/contact">
+                <li>Contact</li>
               </Link>
             </ul>
           </div>

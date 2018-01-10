@@ -47,6 +47,11 @@ ul {
 
 .navbar li {
   display: inline-block;
+  margin-right: 25px;
+}
+
+.navbar img {
+  max-width: 20px;
 }
 
 .navbar button {
@@ -96,7 +101,7 @@ ul {
 }
 
 .logo {
-  width: 200px;
+  width: 300px;
   margin-bottom: 20px;
 }
 
@@ -105,7 +110,7 @@ img {
 }
 
 .contact-btn {
-  background: #b2eff8;
+  background: #56CCF2;
   text-align: center;
   width: 200px;
   height: 40px;
@@ -113,7 +118,7 @@ img {
   font-size: 18px;
   color: white;
   border-radius: 30px;
-  border: 2px solid #b2eff8;
+  border: none;
 }
 
 h3 {
@@ -158,7 +163,7 @@ h3 {
 .intro-right {
   display: flex;
   flex-direction: column;
-  background: #b2eff8;
+  background: linear-gradient(180deg, #56CCF2, rgba(86, 204, 242, 0));
   width: 100%;
   flex: 2;
 }
@@ -177,15 +182,15 @@ h3 {
 .cloud:nth-child(1) {
   margin: 0 auto;
   display: block;
-  max-width: 120px;
-  animation-duration: 60s;
+  max-width: 90px;
+  animation-duration: 20s;
   animation-name: moveCloud;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 }
 
 .cloud:nth-child(2) {
-  animation-duration: 50s;
+  animation-duration: 20s;
   animation-name: moveCloud;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
@@ -195,7 +200,7 @@ h3 {
   float: right;
   clear: both;
   max-width: 130px;
-  animation-duration: 55s;
+  animation-duration: 25s;
   animation-name: moveCloud2;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
@@ -210,7 +215,7 @@ h3 {
 }
 
 .ground:nth-child(1) {
-  background: #8fc9c1;
+  background: #E0E0E0;
   position: absolute;
   bottom: 0;
   left: -70px;
@@ -220,16 +225,15 @@ h3 {
 }
 
 .ground:nth-child(2) {
-  background: #a3e4db;
+  background: #F2F2F2;
   position: absolute;
   bottom: -10px;
-  border-radius: 10px;
   width: 100%;
   height: 50px;
 }
 
 .ground:nth-child(3) {
-  background: #a3e4db;
+  background: #F2F2F2;
   position: absolute;
   bottom: -60px;
   border-radius: 100px;
@@ -521,7 +525,7 @@ h3 {
   }
 
   50% {
-    transform: translate(50px);
+    transform: translate(20px);
   }
 
   100% {
@@ -535,7 +539,7 @@ h3 {
   }
 
   50% {
-    transform: translate(-50px);
+    transform: translate(-20px);
   }
 
   100% {
