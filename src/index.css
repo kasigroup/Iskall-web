@@ -140,7 +140,7 @@ img {
 
 .contact-btn {
   background: #56CCF2;
-  text-align: center;
+  margin: 0 auto;
   width: 200px;
   height: 40px;
   display: block;
@@ -389,7 +389,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 
 .process-box img{
@@ -398,7 +398,7 @@ h3 {
 }
 
 .process-box-text {
-  padding: 0px 200px;
+  padding: 0px 50px;
 }
 
 .process-box-text h3 {
@@ -496,6 +496,21 @@ h3 {
   font-size: 12px;
 }
 
+@media (min-width: 768px) {  
+  #svg-logo {
+    width: 200px;
+  }
+
+  .iceCream {
+    width: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
 @media (min-width: 1100px) {  
 
   h3 {
@@ -508,9 +523,10 @@ h3 {
     display: none;
   }
 
-  .navbar {
-    bottom: auto;
-    text-align: left;
+  .navbar a {
+    background: none;
+    margin: 0;
+    padding: 0;
   }
 
   .navbar a:nth-child(1) {
@@ -519,6 +535,7 @@ h3 {
 
   .contact-btn { 
     border-radius: 40px;
+    margin: 0;
   }
   
   .mockup-onMobile {
@@ -552,6 +569,8 @@ h3 {
   }
 
   .navbar {
+    bottom: auto;
+    text-align: left;
     position: fixed;
     height: 70px;
     width: 100%;
@@ -559,6 +578,10 @@ h3 {
     animation-duration: 1s;
     animation-name: fadeIn;
     
+  }
+
+  .navbar li {
+    margin-right: 20px;
   }
 
   .content {
@@ -617,6 +640,11 @@ h3 {
     display: block;
     margin-top: 50px;
   }
+
+  .process-box-text {
+    padding: 0px 100px;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -624,6 +652,15 @@ h3 {
     max-width: 500px;
   }
 }
+
+@media (min-width: 1440px) {
+  .process-box-text {
+    padding: 0px 150px;
+  }
+
+}
+
+
 
 @media (min-width: 1500px) {
   .mockup-website-content {
@@ -663,6 +700,17 @@ h3 {
 
   .overlay-image {
     max-width: 700px;
+  }
+}
+
+@media (min-width: 1700px) {
+
+  .process-box-text {
+    padding: 0px 200px;
+  }
+
+  .process-box {
+    padding: 50px 0px;
   }
 }
 
