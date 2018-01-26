@@ -1,0 +1,82 @@
+<svg width="205" height="204" viewBox="0 0 205 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 14</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6227 -913)">
+<g id="Group 14">
+<g id="Develop">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(-6227 913)" fill="#6FCF97"/>
+</g>
+<g id="Rectangle 2" filter="url(#filter0_d)">
+<use xlink:href="#path1_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6194.97 986.91)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6159.58 1032.13)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.15">
+<use xlink:href="#path3_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6184.86 990.947)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.1">
+<use xlink:href="#path4_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6179.8 1033.89)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.3">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6161.26 1015.25)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.4">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6181.49 1016.94)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.5">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6120.82 1011.86)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.6">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6141.04 1013.56)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.2">
+<use xlink:href="#path6_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6078.69 1025.42)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.7">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6080.37 1008.47)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.8">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6100.6 1010.17)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.9">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6162.95 998.305)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.10">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6183.17 1000)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.11">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6122.5 994.916)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.12">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6142.73 996.611)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.13">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6082.06 991.527)" fill="#6CAB86"/>
+</g>
+<g id="Rectangle 3.14">
+<use xlink:href="#path5_fill" transform="matrix(0.996153 -0.0876322 0.0866818 0.996236 -6102.28 993.222)" fill="#6CAB86"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-6199" y="975" width="150" height="89" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 177 0C 192.464 0 205 12.536 205 28L 205 176C 205 191.464 192.464 204 177 204L 28 204C 12.536 204 0 191.464 0 176L 0 28Z"/>
+<path id="path1_fill" d="M 0 4C 0 1.79087 1.79086 0 4 0L 132.508 0C 134.718 0 136.508 1.79086 136.508 4L 136.508 65.4717C 136.508 67.6809 134.718 69.4717 132.508 69.4717L 4 69.4717C 1.79086 69.4717 0 67.6809 0 65.4717L 0 4Z"/>
+<path id="path2_fill" d="M 5.34238e-13 4C 6.84372e-13 1.79086 1.79086 4.70272e-14 4 4.56314e-14L 72.2213 2.52731e-15C 74.4304 1.13152e-15 76.2213 1.79086 76.2213 4L 76.2213 7.86103C 76.2213 10.0702 74.4304 11.861 72.2213 11.861L 4 11.861C 1.79086 11.861 1.21707e-13 10.0702 2.71841e-13 7.86103L 5.34238e-13 4Z"/>
+<path id="path3_fill" d="M 1.23749e-12 6.87981e-15L 117.015 0L 117.015 1.69443L 0 1.69443L 1.23749e-12 6.87981e-15Z"/>
+<path id="path4_fill" d="M 8.02027e-14 5.93051C 1.24497e-13 2.65518 2.65518 3.97282e-14 5.93051 2.93287e-14L 9.23709 1.883e-14C 12.5124 8.43047e-15 15.1676 2.65518 15.1676 5.93051L 15.1676 5.93051C 15.1676 9.20585 12.5124 11.861 9.23709 11.861L 5.93051 11.861C 2.65518 11.861 3.5908e-14 9.20585 8.02027e-14 5.93051L 8.02027e-14 5.93051Z"/>
+<path id="path5_fill" d="M 8.02026e-14 5.93051C 1.24497e-13 2.65518 2.65518 3.97282e-14 5.93051 2.93287e-14L 9.23709 1.883e-14C 12.5124 8.43047e-15 15.1676 2.65518 15.1676 5.93051L 15.1676 5.93051C 15.1676 9.20585 12.5124 11.861 9.23709 11.861L 5.93051 11.861C 2.65518 11.861 3.5908e-14 9.20585 8.02026e-14 5.93051L 8.02026e-14 5.93051Z"/>
+<path id="path6_fill" d="M 8.02026e-14 5.93051C 1.24497e-13 2.65518 2.65518 3.97282e-14 5.93051 2.93287e-14L 9.23709 1.883e-14C 12.5124 8.43047e-15 15.1676 2.65518 15.1676 5.93051L 15.1676 5.93051C 15.1676 9.20585 12.5124 11.861 9.23709 11.861L 5.93051 11.861C 2.65518 11.861 3.5908e-14 9.20585 8.02026e-14 5.93051L 8.02026e-14 5.93051Z"/>
+</defs>
+</svg>
