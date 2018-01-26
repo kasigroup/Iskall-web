@@ -51,7 +51,7 @@ function writeOnMockup() {
 export function animNavbar() {
   anime({
     targets: ".navbar a",
-    color: "#000"
+    color: "#333"
   });
 }
 

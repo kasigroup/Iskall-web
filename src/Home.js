@@ -3,6 +3,8 @@ import logo from "./img/Iskall.png";
 import moln from "./img/moln.svg";
 import molnFlipped from "./img/moln-flipped.svg";
 import webPage from "./img/webPage.svg";
+import webMock from "./img/mobile-web-mock.svg";
+import iceCream from "./img/iceCream.svg";
 import { animNavbar, animMockupWebsite } from "./HomeAnimations";
 
 class Home extends Component {
@@ -24,6 +26,9 @@ class Home extends Component {
             <div className="logo">
               <div id="svg-logo">
                 <img src={logo} alt="logo" />
+              </div>
+              <div className="iceCream">
+                <img src={iceCream} alt="ice"/>
               </div>
             </div>
             <div className="intro-text">
@@ -78,6 +83,9 @@ class Home extends Component {
             <div className="ground" />
             <div className="ground" />
             <div className="ground" />
+          </div>
+          <div className="mockup-onMobile">
+            <img src={webMock} alt="mockOnMobile"/>
           </div>
         </div>
       </div>

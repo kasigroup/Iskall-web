@@ -1,0 +1,60 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 15</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1778 2275)">
+<g id="Group 15">
+<g id="WEB SVG REDO">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(-1778 -2275)" fill="#F9F7F8"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path1_fill" transform="translate(-1778 -2275)" fill="#EDEBEC"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-1738 -2241)" fill="#EB261F"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-1674 -2241)" fill="#F7B92B"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-1610 -2241)" fill="#65D743"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path3_fill" transform="translate(-1778 -2175)" fill="#F3F1F2"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path4_fill" transform="translate(-1448 -2108)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path5_fill" transform="translate(-1448 -1951)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path6_fill" transform="translate(-1448 -1893)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path6_fill" transform="translate(-1448 -1835)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path7_fill" transform="matrix(-1 0 0 1 -667 -1695)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path7_fill" transform="matrix(-1 0 0 1 -667 -1637)" fill="#EDEBEC"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path8_fill" transform="matrix(-1 0 0 1 -838.431 -1579)" fill="#EDEBEC"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 1172 0C 1187.46 0 1200 12.536 1200 28L 1200 832C 1200 847.464 1187.46 860 1172 860L 28 860C 12.536 860 0 847.464 0 832L 0 28Z"/>
+<path id="path1_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 1172 0C 1187.46 0 1200 12.536 1200 28L 1200 100L 0 100L 0 28Z"/>
+<path id="path2_fill" d="M 32 16C 32 24.8366 24.8366 32 16 32C 7.16344 32 0 24.8366 0 16C 0 7.16344 7.16344 0 16 0C 24.8366 0 32 7.16344 32 16Z"/>
+<path id="path3_fill" d="M 0 0L 231 0L 231 760L 28 760C 12.536 760 0 747.464 0 732L 0 0Z"/>
+<path id="path4_fill" d="M 0 28C 0 12.536 12.536 0 28 0L 753 0C 768.464 0 781 12.536 781 28L 781 46C 781 61.464 768.464 74 753 74L 28 74C 12.536 74 0 61.464 0 46L 0 28Z"/>
+<path id="path5_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0L 538 0C 546.837 0 554 7.16344 554 16C 554 24.8366 546.837 32 538 32L 16 32C 7.16346 32 0 24.8366 0 16Z"/>
+<path id="path6_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0L 286 0C 294.837 0 302 7.16344 302 16C 302 24.8366 294.837 32 286 32L 16 32C 7.16344 32 0 24.8366 0 16Z"/>
+<path id="path7_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0L 463 0C 471.837 0 479 7.16344 479 16C 479 24.8366 471.837 32 463 32L 16 32C 7.16344 32 0 24.8366 0 16Z"/>
+<path id="path8_fill" d="M 0 16C 0 7.16344 7.16344 0 16 0L 291.569 0C 300.406 0 307.569 7.16344 307.569 16C 307.569 24.8366 300.406 32 291.569 32L 16 32C 7.16343 32 0 24.8366 0 16Z"/>
+</defs>
+</svg>
