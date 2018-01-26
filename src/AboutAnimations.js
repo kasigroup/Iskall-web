@@ -30,7 +30,7 @@ export function animContentIn() {
 export function animPhoneContent() {
   anime({
     targets: ".mockup-phone-blocks img",
-    translateY: [-800, 0],
+    translateY: [-1000, 0],
     delay: function(el, i, l) {
       return i * 1000;
     }
