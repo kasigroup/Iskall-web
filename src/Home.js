@@ -28,7 +28,7 @@ class Home extends Component {
                 <img src={logo} alt="logo" />
               </div>
               <div className="iceCream">
-                <img src={iceCream} alt="ice"/>
+                <img src={iceCream} alt="ice" />
               </div>
             </div>
             <div className="intro-text">
@@ -85,7 +85,7 @@ class Home extends Component {
             <div className="ground" />
           </div>
           <div className="mockup-onMobile">
-            <img src={webMock} alt="mockOnMobile"/>
+            <img src={webMock} alt="mockOnMobile" />
           </div>
         </div>
       </div>
