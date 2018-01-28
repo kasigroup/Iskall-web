@@ -1,10 +1,17 @@
 import anime from "animejs";
 
 export function animNavbar() {
-  anime({
-    targets: ".navbar a",
-    color: "#FFF"
-  });
+  if (window.innerWidth >= 1100) {
+    anime({
+      targets: ".navbar a",
+      color: "#FFF"
+    });
+  } else {
+    anime({
+      targets: ".navbar a",
+      color: "#333"
+    });
+  }
 }
 
 export function animContentIn() {

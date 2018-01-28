@@ -82,6 +82,7 @@ ul {
 
 .wrapper-about {
   display: flex;
+  flex-direction: column-reverse;
   height: 100%;
   background: white;
 }
@@ -156,8 +157,8 @@ img {
 
 h3 {
   margin-bottom: 40px;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 1.5;
   font-weight: 300;
 }
 
@@ -294,45 +295,56 @@ h3 {
   display: flex;
   flex-direction: column;
   background: #6fcf97;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
-  flex: 2;
+  flex: 1;
 }
 
 .about-right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  flex: 4;
+  flex: 1;
 }
 
 .about-text {
   width: 100%;
   height: 100%;
-  display: flex;
-  padding: 0px 200px;
+  display: none;
+  padding: 0px 25px;
+  padding-top: 25px;
   flex-direction: column;
   justify-content: center;
+  overflow: scroll;
 }
 
-.about-text h1 {
-  font-size: 54px;
-  margin-bottom: 100px;
+.about-text-mobile {
+  padding-top: 10px;
 }
 
-.about-text h3 {
+.about-text h1,
+.about-text-mobile h1 {
+  font-size: 30px;
   margin-bottom: 20px;
-  font-size: 24px;
 }
 
-.about-text p {
+.about-text h3,
+.about-text-mobile h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about-text p,
+.about-text-mobile p {
   font-weight: 300;
 }
 
 .mockup-phone {
+  display: none;
   width: 100%;
   height: auto;
-  display: none;
+  opacity: 0;
   justify-content: center;
   align-items: center;
   will-change: transform;
@@ -343,7 +355,7 @@ h3 {
 }
 
 .mockup-phone-blocks {
-  display: none;
+  opacity: 0;
   max-width: 250px;
   position: absolute;
   padding: 30px;
@@ -371,6 +383,38 @@ h3 {
   height: 80px;
   background: white;
   border-radius: 15px;
+}
+
+.phoneMock-mobile {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 70%;
+}
+
+.about-text-slide-indicator {
+  text-align: center;
+}
+
+.about-text-slide-indicator span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: grey;
+  display: inline-block;
+  margin: 0px 5px;
+  opacity: 0.4;
+}
+
+.about-text-slide-indicator span.active {
+  opacity: 1;
+}
+
+.slide-block {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100%;
+  background: #fff;
+  overflow-x: hidden;
 }
 
 /* PROCESS */
@@ -516,6 +560,15 @@ h3 {
     font-size: 18px;
     line-height: 25px;
   }
+
+  .slide-block {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .about-text-mobile h3 {
+    font-size: 26px;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -656,6 +709,50 @@ h3 {
 
   .process-box-text {
     padding: 0px 100px;
+  }
+
+  .about-left {
+    flex-direction: column;
+    background: #6fcf97;
+    justify-content: center;
+    width: 100%;
+    flex: 2;
+  }
+
+  .about-right {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    flex: 4;
+  }
+
+  .about-text {
+    display: flex;
+    padding: 0px 200px;
+    padding-top: 0px;
+    overflow: unset;
+  }
+
+  .about-text h1 {
+    font-size: 54px;
+    margin-bottom: 100px;
+  }
+
+  .about-text h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .mockup-phone {
+    display: flex;
+  }
+
+  .phoneMock-mobile {
+    display: none;
+  }
+
+  .about-text-mobile {
+    display: none;
   }
 }
 
