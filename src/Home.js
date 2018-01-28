@@ -36,7 +36,9 @@ class Home extends Component {
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy eirmod tempor invidunt ut labore
               </h3>
-              <button className="contact-btn">Get in Touch</button>
+              <a className="contact-btn" href="mailto:contact@iskall.io">
+                Get in touch
+              </a>
             </div>
           </div>
         </div>

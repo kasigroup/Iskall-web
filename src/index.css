@@ -99,9 +99,9 @@ ul {
 }
 
 .wrapper-contact {
-  display: flex;
+  display: block;
   height: 100%;
-  background: #f68989;
+  background: white;
 }
 
 .current {
@@ -151,13 +151,19 @@ img {
 .contact-btn {
   background: #56ccf2;
   margin: 0 auto;
-  width: 200px;
-  height: 40px;
-  display: block;
+  padding: 10px 40px;
+  display: inline-block;
   font-size: 18px;
   color: white;
   border-radius: 4px;
-  border: none;
+  font-weight: 400;
+  transition: all 0.2s;
+}
+
+.contact-btn:hover {
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
 }
 
 h3 {
@@ -522,6 +528,10 @@ h3 {
   font-size: 1.2em;
 }
 
+.contact-content-text p:nth-child(3) {
+  margin-bottom: 5px;
+}
+
 .contact-footer {
   text-align: center;
   position: absolute;
@@ -541,30 +551,113 @@ h3 {
 }
 
 .contact-button {
-  border-radius: 30px;
-  background: white;
-  color: #333;
+  border-radius: 4px;
+  background: #f68989;
+  font-weight: 400;
+  color: white;
   padding: 10px 40px;
   margin-top: 10px;
   display: inline-block;
+  transition: 0.2s;
+}
+
+.contact-button:hover {
+  color: #333;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 .contact-content-hoggi,
 .contact-content-isse {
   text-align: center;
   color: white;
+  max-height: 70%;
 }
 
 .contact-content-hoggi p,
 .contact-content-isse p {
   font-size: 18px;
   margin-bottom: 0px;
-  margin-top: 15px;
+  margin-top: 0px;
+  display: block;
 }
 
 .contact-content-hoggi span,
 .contact-content-isse span {
   font-size: 12px;
+  display: block;
+}
+
+.contact-content,
+.contact-footer {
+  display: none;
+}
+
+.contact-mobile {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-top {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.contact-bottom {
+  flex: 1;
+  background: #f68989;
+}
+
+.contact-content-text {
+  text-align: left;
+  padding: 0px 15px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.contact-content-text p {
+  font-size: 16px;
+}
+
+.contact-content-text p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-bottom img {
+  padding: 15px;
+  max-width: 150px;
+}
+
+#hoggi {
+  margin-top: 14px;
+}
+
+.person {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.person-wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.person-info {
+  text-align: center;
+  color: white;
+}
+
+.person-info p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.person-info span {
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -654,6 +747,11 @@ h3 {
 
   .wrapper-about {
     flex-direction: row;
+  }
+
+  .wrapper-contact {
+    background: #f68989;
+    display: flex;
   }
 
   .navbar {
@@ -804,6 +902,32 @@ h3 {
 
   .process-text-mobile {
     display: none;
+  }
+
+  .contact-content {
+    display: flex;
+  }
+
+  .contact-footer {
+    display: block;
+  }
+
+  .contact-mobile {
+    display: none;
+  }
+
+  .contact-button {
+    border-radius: 30px;
+    background: white;
+    color: #333;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .contact-content-hoggi p,
+  .contact-content-isse p {
+    margin-top: 15px;
   }
 }
 

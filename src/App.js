@@ -6,6 +6,7 @@ import {
   Switch,
   NavLink
 } from "react-router-dom";
+import Shake from "shake.js";
 import iceCream from "./img/iceCream.svg";
 import Home from "./Home";
 import About from "./About";
@@ -16,6 +17,19 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.navChange = this.navChange.bind(this);
+
+    var myShakeEvent = new Shake({
+      threshold: 15,
+      timeout: 1000
+    });
+
+    myShakeEvent.start();
+
+    window.addEventListener("shake", shakeEventDidOccur, false);
+
+    function shakeEventDidOccur() {
+      alert("Shake it like a polaroid picture!");
+    }
   }
 
   navChange() {
