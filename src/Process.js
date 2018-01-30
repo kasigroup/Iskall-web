@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { animNavbar } from "./ProcessAnimations";
+import { animNavbar, animContentIn } from "./ProcessAnimations";
 import table from "./img/table.svg";
 import plane from "./img/plane.svg";
 import define from "./img/define.svg";
@@ -11,6 +11,7 @@ import ProcessText from "./ProcessText";
 class Process extends Component {
   componentDidMount() {
     animNavbar();
+    animContentIn();
   }
 
   render() {

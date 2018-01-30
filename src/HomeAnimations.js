@@ -59,6 +59,7 @@ export function animMockupWebsite() {
   anime({
     targets: ".mockup-website",
     translateY: [-800, 0],
+    opacity: [0, 1],
     easing: "easeInOutQuart"
   });
 

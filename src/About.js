@@ -10,6 +10,14 @@ import { animNavbar, animContentIn, animPhoneContent } from "./AboutAnimations";
 class About extends Component {
   componentDidMount() {
     animNavbar();
+
+    window.onresize = function(event) {
+      animNavbar();
+    };
+  }
+
+  componentWillUnmount() {
+    window.onresize = null;
   }
 
   startAnimations() {

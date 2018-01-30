@@ -194,6 +194,7 @@ h3 {
 }
 
 .mockup-website {
+  opacity: 0;
   will-change: transform;
   /* animation-duration: 0.3s;
   animation-name: moveIn;
@@ -928,6 +929,14 @@ h3 {
   .contact-content-hoggi p,
   .contact-content-isse p {
     margin-top: 15px;
+  }
+
+  .contact-content p {
+    font-size: 22px;
+  }
+
+  .contact-content-text p:nth-child(1) {
+    font-size: 28px;
   }
 }
 

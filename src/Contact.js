@@ -1,11 +1,20 @@
 import React, { Component } from "react";
-import { animNavbar } from "./ContactAnimations";
+import { animNavbar, animContentIn } from "./ContactAnimations";
 import isse from "./img/isse.svg";
 import hoggi from "./img/hoggi.svg";
 
 class Contact extends Component {
   componentDidMount() {
     animNavbar();
+    animContentIn();
+
+    window.onresize = function(event) {
+      animNavbar();
+    };
+  }
+
+  componentWillUnmount() {
+    window.onresize = null;
   }
 
   render() {
