@@ -18,8 +18,12 @@ class About extends Component {
     animContentIn();
     setTimeout(function() {
       animPhoneContent();
-      const phone = document.getElementById("mockup-phone-blocks");
-      phone.style.opacity = "1";
+      if (document.getElementById("mockup-phone-blocks") === null) {
+        // console.log("Do nothing")
+      } else {
+        const phone = document.getElementById("mockup-phone-blocks");
+        phone.style.opacity = "1";
+      }
     }, 1000);
   }
 
