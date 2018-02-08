@@ -33,8 +33,7 @@ class Home extends Component {
             </div>
             <div className="intro-text">
               <h3>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore
+              We make digital products that enable your ideas and delevopes your business. We are a small team of  happy web developers that always strive for a greater team of happy customers
               </h3>
               <a className="contact-btn" href="mailto:contact@iskall.io">
                 Get in touch

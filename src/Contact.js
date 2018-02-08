@@ -29,9 +29,7 @@ class Contact extends Component {
           <div className="contact-content-text">
             <p>We would love to hear from you!</p>
             <p>
-              Are you interested in free coffee, exploring how we can support
-              your business, our previous work or do you have a project
-              proposal?
+            Are you interested in grabbing a coffee, exploring how we can support your business, our previous work or do you have a project proposal?
             </p>
             <p>Just submit your name and email and we’ll get in touch!</p>
             <a className="contact-button" href="mailto:contact@iskall.io">
@@ -53,9 +51,7 @@ class Contact extends Component {
             <div className="contact-content-text">
               <p>We would love to hear from you!</p>
               <p>
-                Are you interested in free coffee, exploring how we can support
-                your business, our previous work or do you have a project
-                proposal?
+              Are you interested in grabbing a coffee, exploring how we can support your business, our previous work or do you have a project proposal?
               </p>
               <p>Just submit your name and email and we’ll get in touch!</p>
               <a className="contact-button" href="mailto:contact@iskall.io">
