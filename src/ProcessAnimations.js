@@ -11,6 +11,7 @@ export function animContentIn() {
 export function animNavbar() {
   anime({
     targets: ".navbar a",
-    color: "#333"
+    color: "#333",
+    borderColor: "#f6b277"
   });
 }

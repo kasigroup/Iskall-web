@@ -59,7 +59,7 @@ ul {
   padding: 10px 15px;
   margin: 0px 15px;
   color: #333;
-  border-bottom: 1px solid #333;
+  border-bottom: 2px solid #333;
 }
 
 .navbar a:nth-child(1) {
@@ -513,7 +513,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0px 100px;
+  padding: 0px 50px;
 }
 
 .contact-content img {
@@ -687,7 +687,7 @@ h3 {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .activeLink {
     display: inline-block;
   }
@@ -715,6 +715,7 @@ h3 {
     margin: 0;
     padding: 0;
     font-weight: 400;
+    border: 0;
   }
 
   .navbar a:nth-child(1) {
@@ -767,7 +768,7 @@ h3 {
     position: fixed;
     height: 70px;
     width: 100%;
-    padding: 25px 25px 0px 100px;
+    padding: 25px 25px 0px 50px;
     animation-duration: 1s;
     animation-name: fadeIn;
   }
@@ -800,7 +801,7 @@ h3 {
   .overlay-image {
     display: block;
     max-width: 450px;
-    margin-left: 40%;
+    margin-left: 50%;
   }
 
   .mock-text {
@@ -834,7 +835,7 @@ h3 {
   }
 
   .process-box-text {
-    padding: 0px 100px;
+    padding: 0px 60px;
   }
 
   .about-left {
@@ -854,7 +855,7 @@ h3 {
 
   .about-text {
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 100px;
     padding-top: 0px;
     overflow: unset;
   }
@@ -887,6 +888,7 @@ h3 {
 
   .process-box {
     display: flex;
+    padding: 10px 0px;
   }
 
   .process-left {
@@ -909,6 +911,10 @@ h3 {
 
   .process-text-mobile {
     display: none;
+  }
+
+  .process-left-content {
+    padding-left: 25px;
   }
 
   .contact-content {
@@ -944,6 +950,30 @@ h3 {
   .contact-content-text p:nth-child(1) {
     font-size: 28px;
   }
+}
+
+@media (min-width: 1100px) {
+
+  .overlay-image {
+    margin-left: 40%;
+  }
+
+  .about-text {
+    padding: 0px 200px;
+  }
+
+  .process-left-content {
+    padding-left: 80px;
+  }
+
+  .navbar {
+    padding: 25px 25px 0px 100px;
+  }
+
+  .contact-content {
+    padding: 0px 100px;
+  }
+
 }
 
 @media (min-width: 1200px) {

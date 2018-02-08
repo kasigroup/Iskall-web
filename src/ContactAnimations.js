@@ -9,7 +9,7 @@ export function animContentIn() {
 }
 
 export function animNavbar() {
-  if (window.innerWidth >= 1100) {
+  if (window.innerWidth >= 992) {
     anime({
       targets: ".navbar a",
       color: "#FFF"
@@ -17,7 +17,8 @@ export function animNavbar() {
   } else {
     anime({
       targets: ".navbar a",
-      color: "#333"
+      color: "#333",
+      borderColor: "#f68889"
     });
   }
 }
