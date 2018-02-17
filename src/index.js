@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Loading from "./Loading";
-import registerServiceWorker from "./registerServiceWorker";
 
 class TheApp extends React.Component {
   state = {
@@ -31,4 +30,3 @@ class TheApp extends React.Component {
 }
 
 ReactDOM.render(<TheApp />, document.getElementById("root"));
-registerServiceWorker();
