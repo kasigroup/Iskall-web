@@ -58,17 +58,15 @@ class About extends Component {
             <h1>What we do?</h1>
             <h3>We focus on building web applications and websites</h3>
             <p>
-            Web browsers are constantly evolving and so does it posibilities. Today the browser allows us to create complex websites that are more interactable and with more functionality then before to optimize the mobile and desktop web experience. Now you can run a variety of apps in the web browser, which gives us a lot of new opportunities. Some functionalities still demand a native mobile app to work so get in touch and we can help you figure what wold work best for you.
-            </p>
+            Today our web browsers allow us to create complex websites with a whole new level of intractability and functionality. This optimises the mobile and desktop web experience for the users. Now you can run a variety of apps in the web browser, which gives us a lot of new opportunities.             </p>
             <br />
             <h3>Why web applications?</h3>
-            <p>
-            - Web applications are an easy way to test concepts without having to dump resources into developing      
-            seperate platforms e.g. website, android app and iphone app. </p>
-          <p>- No need to download an app to get started, users only need to click an URL link to get to your product.                               
-            This makes it easier for customers to share and use. </p>
-          <p>- By developing an already existing website into an web app you can achieve a better customer 
-            experience and higher level of interaction from the users</p>
+            <p>It is basically an advanced website with the functionality of an native app. The advantages are:</p>
+            <ul>
+              <li>Faster to develop and deploy the product, concept or idea.</li>
+              <li>No need for the user to download an app use the product which makes it easy to share.</li>
+              <li>It gives an already existing website a better customer experience and a higher level of interaction.</li>
+            </ul>
           </div>
           <div className="about-text-mobile">
             <AboutText />

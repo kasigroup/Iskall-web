@@ -44,7 +44,8 @@ class Contact extends Component {
         </div>
         <div className="contact-footer">
           <h3>Iskall AB</h3>
-          <p>© 2018 Iskall AB | hello@iskall.io | 036-123 123</p>
+          <p>© 2018 Iskall AB | +46 070893472</p>
+          {/* | hello@iskall.io  */}
         </div>
         <div className="contact-mobile">
           <div className="contact-top">
@@ -54,7 +55,7 @@ class Contact extends Component {
               Are you interested in grabbing a coffee, exploring how we can support your business, our previous work or do you have a project proposal?
               </p>
               <p>Just submit your name and email and we’ll get in touch!</p>
-              <a className="contact-button" href="mailto:contact@iskall.io">
+              <a className="contact-button" href="mailto:fagerlund.isak@gmail.com">
                 Message us!
               </a>
             </div>
