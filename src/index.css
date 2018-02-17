@@ -882,6 +882,10 @@ h3 {
     overflow: unset;
   }
 
+  .about-text ul {
+    padding-left: 20px;
+  }
+
   .about-text h1 {
     font-size: 54px;
     margin-bottom: 50px;
