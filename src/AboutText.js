@@ -32,9 +32,9 @@ class AboutText extends Component {
           <div className="slide-block">
             <h3>Why web applications?</h3>
             <p>It is basically an advanced website with the functionality of an native app. The advantages are:</p>
-            <p>Faster to develop and deploy the product, concept or idea.</p>
-            <p>No need for the user to download an app use the product which makes it easy to share.</p>
-            <p>It gives an already existing website a better customer experience and a higher level of interaction.</p>
+            <p>- Faster to develop and deploy the product, concept or idea.</p>
+            <p>- No need for the user to download an app use the product which makes it easy to share.</p>
+            <p>- It gives an already existing website a better customer experience and a higher level of interaction.</p>
           </div>
         </SwipeableViews>
         <div className="about-text-slide-indicator">
