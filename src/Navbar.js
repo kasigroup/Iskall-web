@@ -8,11 +8,6 @@ class Navbar extends Component {
     this.testFunction = this.testFunction.bind(this);
   }
 
-  testFunction(x) {
-    console.log(x);
-    // this.state.history.push(x);
-  }
-
   render() {
     return (
       <div className="navbar">

@@ -47,21 +47,19 @@ class App extends Component {
                   <img src={iceCream} alt="logo" />
                 </li>
               </NavLink>
-              <NavLink exact activeClassName="activeLink" to="/" id="home-link">
+              <NavLink exact to="/" id="home-link">
                 <li>Home</li>
               </NavLink>
-              <NavLink activeClassName="activeLink" to="/about" id="about-link">
+              <NavLink to="/about" id="about-link">
                 <li>About</li>
               </NavLink>
               <NavLink
-                activeClassName="activeLink"
                 to="/process"
                 id="process-link"
               >
                 <li>Process</li>
               </NavLink>
               <NavLink
-                activeClassName="activeLink"
                 to="/contact"
                 id="contact-link"
               >

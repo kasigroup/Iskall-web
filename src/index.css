@@ -56,8 +56,8 @@ ul {
 .navbar a {
   position: relative;
   background: white;
-  padding: 10px 15px;
-  margin: 0px 15px;
+  padding: 10px 10px;
+  margin: 0px 5px;
   color: #333;
   border-bottom: 2px solid #333;
 }
@@ -116,7 +116,7 @@ ul {
 
 .intro-left {
   width: 100%;
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,7 +216,7 @@ h3 {
 }
 
 .intro-right {
-  display: flex;
+  display: none;
   flex-direction: column;
   background: #55ccf2;
   width: 100%;
@@ -319,7 +319,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  flex: 1;
+  flex: 2;
 }
 
 .about-text {
@@ -414,6 +414,7 @@ h3 {
   margin-top: 10px;
   width: 100%;
   max-height: 70%;
+  display: none;
 }
 
 .about-text-slide-indicator {
@@ -635,7 +636,8 @@ h3 {
 }
 
 .contact-content-text p {
-  font-size: 16px;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .contact-content-text p:nth-child(1) {
@@ -645,7 +647,7 @@ h3 {
 
 .contact-bottom img {
   padding: 15px;
-  max-width: 150px;
+  max-width: 120px;
 }
 
 #hoggi {
@@ -676,6 +678,31 @@ h3 {
 
 .person-info span {
   font-size: 14px;
+}
+
+@media (min-width: 350px) {
+
+  .intro-left {
+    flex: 1;
+  }
+
+  .intro-right {
+    display: flex;
+  }
+
+  .about-right {
+    flex: 1;
+  }
+
+  .phoneMock-mobile {
+    display: block;
+  }
+
+  .contact-bottom img {
+    max-width: 150px;
+  }
+  
+
 }
 
 @media (min-width: 450px) {
@@ -1072,6 +1099,7 @@ h3 {
 }
 
 @media (min-height: 600px) {
+
   .person-info {
     margin-top: 0;
   }
