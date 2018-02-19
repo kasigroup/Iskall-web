@@ -24,7 +24,7 @@ class Contact extends Component {
           <div className="contact-content-isse">
             <img className="img-fluid" src={isse} alt="worker-one" />
             <p>Isak Fagerlund</p>
-            <span>+46 070893472</span>
+            <span>+46 767932697</span>
           </div>
           <div className="contact-content-text">
             <p>We would love to hear from you!</p>
@@ -39,12 +39,12 @@ class Contact extends Component {
           <div className="contact-content-hoggi">
             <img className="img-fluid" src={hoggi} alt="worker-two" />
             <p>Isak Höglund</p>
-            <span>+46 070893472</span>
+            <span>+46 702163758</span>
           </div>
         </div>
         <div className="contact-footer">
           <h3>Iskall AB</h3>
-          <p>© 2018 Iskall AB | +46 070893472</p>
+          <p>© 2018 Iskall AB | +46 702163758</p>
           {/* | hello@iskall.io  */}
         </div>
         <div className="contact-mobile">
