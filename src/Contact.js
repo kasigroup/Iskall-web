@@ -66,14 +66,14 @@ class Contact extends Component {
                 <img src={isse} alt="worker-one" />
                 <div className="person-info">
                   <p>Isak Fagerlund</p>
-                  <span>+46 070893472</span>
+                  <span>+46 767932697</span>
                 </div>
               </div>
               <div className="person">
                 <img id="hoggi" src={hoggi} alt="worker-one" />
                 <div className="person-info">
                   <p>Isak Höglund</p>
-                  <span>+46 070893472</span>
+                  <span>+46 702163758</span>
                 </div>
               </div>
             </div>
